@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e1248b8-a463-446f-9ed5-a2c4367d403d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/aplicacion-REST.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/config-data.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-service/src/main/java/com/tienda/config/ConfigServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-service/src/test/java/com/tienda/config/ConfigServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/src/main/java/com/tienda/customer/ServiceCustomerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/src/main/java/com/tienda/customer/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/src/main/java/com/tienda/customer/controller/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/src/main/java/com/tienda/customer/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/src/main/java/com/tienda/customer/entity/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/src/main/java/com/tienda/customer/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/src/main/java/com/tienda/customer/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/src/main/java/com/tienda/customer/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-customer/src/test/java/com/tienda/customer/ServiceCustomerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/src/main/java/com/tienda/product/ServiceProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/src/main/java/com/tienda/product/controller/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/src/main/java/com/tienda/product/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/src/main/java/com/tienda/product/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/src/main/java/com/tienda/product/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/src/main/java/com/tienda/product/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/src/main/java/com/tienda/product/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/src/main/java/com/tienda/product/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/src/test/java/com/tienda/product/ProductRepositoryMockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/src/test/java/com/tienda/product/ProductServiceMockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-product/src/test/java/com/tienda/product/ServiceProductApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/src/main/java/com/tienda/shopping/ShoppingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/src/main/java/com/tienda/shopping/controller/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/src/main/java/com/tienda/shopping/controller/InvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/src/main/java/com/tienda/shopping/entity/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/src/main/java/com/tienda/shopping/entity/InvoiceItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/src/main/java/com/tienda/shopping/repository/InvoiceItemsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/src/main/java/com/tienda/shopping/repository/InvoiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/src/main/java/com/tienda/shopping/service/InvoiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/src/main/java/com/tienda/shopping/service/InvoiceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/src/main/resources/shcema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-shopping/src/test/java/com/tienda/shopping/ShoppingApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2ThI7Gg528jCYBwuercaoLAXg5u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Leandro/Documents/SpringInit/aplicacion-REST/config-data",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e1248b8-a463-446f-9ed5-a2c4367d403d" name="Changes" comment="" />
+      <created>1691488716660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691488716660</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+</project>
