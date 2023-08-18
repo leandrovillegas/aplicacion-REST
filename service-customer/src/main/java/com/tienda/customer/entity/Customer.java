@@ -1,13 +1,14 @@
 package com.tienda.customer.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 import lombok.Data;
 
-import javax.persistence.*;
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+
 import java.io.Serializable;
 
 @Data
@@ -19,20 +20,20 @@ public class Customer implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotEmpty(message = "The document number can't be empty")
+    @NotBlank(message = "The document number can't be empty")
     @Size(min = 8, max = 8, message = "The size of the document need to be 8")
     @Column(name = "number_id",unique = true, length = 8, nullable = false)
     private String numberId;
 
-    @NotEmpty(message = "The First Name can't be empty")
+    @NotBlank(message = "The First Name can't be empty")
     @Column(name = "first_name",nullable = false)
     private String firstName;
 
-    @NotEmpty(message = "The Last Name can't be empty")
+    @NotBlank(message = "The Last Name can't be empty")
     @Column(name = "last_name",nullable = false)
     private String lastName;
 
-    @NotEmpty(message = "The Email can't be empty")
+    @NotBlank(message = "The Email can't be empty")
     @Email
     @Column(unique = true ,nullable = false)
     private String email;
@@ -43,7 +44,7 @@ public class Customer implements Serializable {
     @Column(name = "state")
     private String state;
 
-    @NotNull(message = "The Region can't be empty")
+    @NotBlank(message = "The Region can't be empty")
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "region_id")
     @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
