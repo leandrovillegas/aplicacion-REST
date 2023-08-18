@@ -1,9 +1,10 @@
 package com.tienda.customer.entity;
 
+import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Data;
 
-import javax.persistence.*;
+
 import java.io.Serializable;
 
 @Data
