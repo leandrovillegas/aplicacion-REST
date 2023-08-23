@@ -3,6 +3,7 @@ package com.tienda.customer.controller;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.tienda.customer.entity.Customer;
+import com.tienda.customer.entity.Region;
 import com.tienda.customer.service.CustomerService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,6 +42,18 @@ public class CustomerController {
             return ResponseEntity.noContent().build();
         }
         return ResponseEntity.ok(customer);
+
+    }
+
+    @GetMapping(value = "region/{regionId}")
+    public ResponseEntity<List<Customer>> getCustomerByRegion(@PathVariable("regionId") Long id){
+        Region region = new Region();
+        region.setId(id);
+        List<Customer> customers = customerService.findCustomerByRegion(region);
+        if(customers == null){
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.ok(customers);
 
     }
 
