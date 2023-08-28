@@ -85,10 +85,8 @@ public class ProductController {
     }
 
     @PutMapping(value = "/{productId}/stock")
-    public ResponseEntity<Product> updateStockProduct(@PathVariable("productId") Long productId, @RequestParam(name = "quantity", required = true) Double quantity, BindingResult result){
-        if(result.hasErrors()){
-            throw new ResponseStatusException(HttpStatus.BAD_REQUEST,this.formatMessage(result));
-        }
+    public ResponseEntity<Product> updateStockProduct(@PathVariable("productId") Long productId, @RequestParam(name = "quantity", required = true) Double quantity){
+
         Product updatedStockProduct= productService.updateStock(productId,quantity);
         if (updatedStockProduct ==  null){
             return ResponseEntity.notFound().build();

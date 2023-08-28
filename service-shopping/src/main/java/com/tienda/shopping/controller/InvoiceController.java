@@ -60,7 +60,7 @@ public class InvoiceController {
 
     // ------------------- Update a Invoice ------------------------------------------------
     @PutMapping(value = "/{id}")
-    public ResponseEntity<?> updateInvoice(@PathVariable("id") long id, @RequestBody Invoice invoice) {
+    public ResponseEntity<Invoice> updateInvoice(@PathVariable("id") long id, @RequestBody Invoice invoice) {
         //log.info("Updating Invoice with id {}", id);
 
         invoice.setId(id);
