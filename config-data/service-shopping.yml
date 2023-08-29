@@ -44,7 +44,7 @@ eureka:
 
 Feign:
   hystrix:
-    enable: true
+    enabled: true
 
 resilience4j.circuitbreaker:
   instances:
